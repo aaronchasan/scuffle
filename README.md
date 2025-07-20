@@ -1,4 +1,4 @@
-# Cards Project
+# Schoolyard Scuffle Cards
 
 This project generates printable card PDFs for Schoolyard Scuffle, a board game I'm making. It uses data from a CSV file and a Jinja2 HTML template.
 
