@@ -32,10 +32,6 @@ Your main card data is in `sample_cards.csv`. Required columns:
 - `clique`, `clique_icon` (for clique display)
 - `quantity` (number of copies to print on sheets)
 
-**Note:**
-- Apostrophes and special characters in names are automatically normalized for PDF filenames.
-- If a card's `quantity` is blank, it defaults to 1.
-
 ## Usage
 
 ### 1. Bulk Generate Card PDFs
@@ -59,12 +55,7 @@ python make_card_sheets.py
 ```
 - Output: `card_sheets.pdf` (multi-page, 9 cards per page)
 
-### 3. Add/Update Card Data
-- Edit `sample_cards.csv` in a spreadsheet or text editor.
-- Add new cards, update text, icons, or quantities.
-- Run `bulk` and `printouts` again to update PDFs.
-
-### 4. Custom Icons
+### 3. Custom Icons
 - Place SVG icon files in the `icons/` directory.
 - Reference them in the CSV (e.g. `action.svg:1|card.svg:1`).
 
