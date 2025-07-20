@@ -1,0 +1,76 @@
+name,played_power,hand_power,gumball_wad,cost,quantity,buy_power,buy_power_icons,clique,clique_icon,played_icons,hand_icons,gumball_icons
+Beef up,"+1 action; any time you scuffle this turn, get +1 intimidation",+1 rock,Wad 1 gumball for trade.,2,3,,,PE enthusiasts,PE_enthusiasts,action.svg:1|intimidation.svg:1,rock.svg:1,gumball.svg:1
+Friendship bracelet,"Roll a die: +1 resource based on your roll; other players with a Friendship bracelet in play get the same:
+1 → lunch money
+2 → hallway
+3 → rock
+4 → card",+1 gumball if at least one other player has a Friendship bracelet in play,Wad 1 gumball for trade.,2,6,,,horse girls,horse_girls,roll.svg:1|if.svg:1|resource.svg:1,bracelet.svg:1|if.svg:1|gumball.svg:1,gumball.svg:1
+Gum swap,,"Trade any resource for two gumballs, once",,2,6,,card.svg:1,,,,any_resource.svg:1|trade.svg:1|gumball.svg:2,
+Pocket mulch,"+1 hallway, which you may immediately build on top of opponents’ hallways",,Wad 1 gumball for trade.,2,3,,,,,hallway.svg:1,,gumball.svg:1
+Dibs,"Place 2 lunch money on the board to block a space. Next turn, build on that space or unblock it and add the lunch money to your supply",+1 lunch money,Wad 1 gumball for trade.,3,2,,,,,dibs.svg:1,lunch_money.svg:1,gumball.svg:1
+Extra credit,Add this card to your binder; +1 gumball on reveal,,Wad 1 gumball for trade.,3,2,Add straight to binder,binder.svg:1,mathletes,mathletes,binder.svg:1|gumball.svg:1,,gumball.svg:1
+Horsin’ around,"+1 action; +1 card; if any other players have a horse girl in their hand, scuffle them without negative consequences for either",Buy horse girl cards for 1 fewer,Wad 1 gumball for trade.,3,2,,,horse girls,horse_girls,action.svg:1|card.svg:1|blank.svg:1|horse_girls.svg:1|if.svg:1|scuffle.svg:1,horse_girls_-2.svg:1,gumball.svg:1
+Just a peek,"+1 action, reorder the top 3 cards of your deck",+1 card,Wad 1 gumball for trade.,3,2,,,,,action.svg:1|reorder.svg:1,card.svg:1,gumball.svg:1
+Just borrowing,Randomly draw a card from two opponents’ hands for you to use during this reveal. The cards then go back into their hands.,,Wad 2 gumballs for trade.,3,2,,,,,borrow.svg:2,,gumball.svg:2
+Mane squeeze,"Pick a player—they are now your boyfriend; to scuffle, you all have to break up, which costs an action for them but is free for you","Trade 1 of your resources for 1 of your boyfriend’s, at your sole discretion; again if they have a horse girl in their hand; if no boyfriend: trade with the supply once",Wad 1 gumball for trade.,3,2,,,horse girls,horse_girls,boyfriend.svg:1,any_resource.svg:1|trade.svg:1|any_resource.svg:1|horse_girls.svg:1|if.svg:1|action.svg:1,gumball.svg:1
+Neigh sayer,,Reveal this card when attacked to block the scuffle entirely (attacker still loses the action); keep in your hand,Wad 1 gumball for trade.,3,2,,,horse girls,horse_girls,,stop.svg:1,gumball.svg:1
+Smacking,Trash this card; +1 action; +1 card; +2 gumballs during reveal,,Wad 1 gumball for trade.,3,2,,,,,blank.svg:1|blank.svg:1|trash.svg:1|blank.svg:1|blank.svg:1|action.svg:1|card.svg:1|gumball.svg:2,,gumball.svg:1
+Threequal,"Gain a card from the mall ≤ this card’s value, or trash this card to gain a card ≤ +2 this card’s value; if it’s a mathlete, add to your binder",,Wad 1 gumball for trade.,3,2,Add straight to binder,binder.svg:1,mathletes,mathletes,add_card.svg:1|or.svg:1|blank.svg:1|trash.svg:1|trade.svg:1|add_card_+2.svg:1|mathletes.svg:1|if.svg:1|binder.svg:1,,gumball.svg:1
+Bait master,,"Reveal this card when attacked, after rock reveal, for +3 intimidation; keep it in your hand",Wad 2 gumballs for trade.,4,2,,,,,,intimidation.svg:3|keep_cards.svg:1,gumball.svg:2
+Booster pack,Draw 3 cards and discard 1,+1 card,Wad 1 gumball for trade.,4,2,,,,,card.svg:2|discard.svg:1,card.svg:1,gumball.svg:1
+Food fight,"Initiate a scuffle and spend up to 3 lunch money for extra intimidation, 1:1",+1 rock,Wad 1 gumball for trade.,4,2,,,,,scuffle.svg:1|blank.svg:1|blank.svg:1|lunch_money.svg:1|trade.svg:1|intimidation.svg:1,rock.svg:1,gumball.svg:1
+Gobble gobble,Draw 3 cards: keep 2 & trash 1 or discard all,,Wad 2 gumballs for trade.,4,2,,,,,card.svg:2|trash.svg:1|blank.svg:1|or.svg:1|blank.svg:1|discard.svg:3,,gumball.svg:2
+I’ll be having that,"You may build a base 2 hallways from your nearest structure, +1 hallway",+1 hallway,Wad 1 gumball for trade.,4,2,,,,,base.svg:1|hallway.svg:1,hallway.svg:1,gumball.svg:1
+Mommy won’t mind,Trash any card from your deck; +1 card,Trash a card from your hand (you don’t get its reveal bonus),Wad 1 gumball for trade.,4,2,,,,,trash.svg:1|card.svg:1,trash.svg:1,gumball.svg:1
+Pony up,"Roll a die: +1 resource based on your roll; other players with a horse girl in play get the same; then you take any 1 of their resources
+1 → lunch money
+2 → hallway
+3 → rock
+4 → card",,Wad 2 gumballs for trade.,4,2,,,horse girls,horse_girls,roll.svg:1|if.svg:1|resource.svg:1|horse_girls.svg:1|if.svg:1|grab.svg:1,,gumball.svg:2
+Teacher-sanctioned fight,"Initiate a scuffle and spend up to 3 hallways for extra intimidation, 1:1",+1 rock,Wad 1 gumball for trade.,4,2,,,,,scuffle.svg:1|blank.svg:1|blank.svg:1|hallway.svg:1|trade.svg:1|intimidation.svg:1,rock.svg:1,gumball.svg:1
+Test prep,"Add all mathletes in your hand, including this one, to your binder, +1 gumball on reveal",,Wad 1 gumball for trade.,4,2,Add straight to binder,binder.svg:1,mathletes,mathletes,binder.svg:1|gumball.svg:1,,gumball.svg:1
+Balanced meal,Spend lunch money as gumballs on your reveal; +1 lunch money,+1 lunch money,Wad 1 gumball for trade.,5,2,,,,,lunch_money.svg:1|trade.svg:1|gumball.svg:1|lunch_money.svg:1,lunch_money.svg:1,gumball.svg:1
+Candy in December,You may keep cards in your hand this turn rather than revealing them; +2 cards,+1 card,Wad 1 gumball for trade.,5,2,,,,,keep_cards.svg:1|card.svg:2,card.svg:1,gumball.svg:1
+Contraband,Spend hallways as gumballs on your reveal; +1 hallway,+1 hallway,Wad 1 gumball for trade.,5,2,,,,,hallway.svg:1|trade.svg:1|gumball.svg:1|hallway.svg:1,hallway.svg:1,gumball.svg:1
+Deck master 300,"Draw 3 cards: play one, keep one, and trash one or discard all",,Wad 2 gumballs for trade.,5,2,,,,,play.svg:1|card.svg:1|trash.svg:1|blank.svg:1|or.svg:1|blank.svg:1|discard.svg:3,,gumball.svg:2
+High 5,"Gain a card from the mall ≤ this card’s value, or trash this card to gain a card ≤ +2 this card’s value; if it’s a mathlete, add to your binder",,Wad 1 gumball for trade.,5,2,Add straight to binder,binder.svg:1,mathletes,mathletes,add_card.svg:1|or.svg:1|blank.svg:1|trash.svg:1|trade.svg:1|add_card_+2.svg:1|mathletes.svg:1|if.svg:1|binder.svg:1,,gumball.svg:1
+Insecure bully,"Initiate a scuffle. If you win, +1 action +1 card",+1 rock,Wad 1 gumball for trade.,5,2,,,PE enthusiasts,PE_enthusiasts,scuffle.svg:1|if.svg:1|action.svg:1|card.svg:1,rock.svg:1,gumball.svg:1
+Less than three,Draw up to two mathletes from your deck into your binder; add this card to your binder,,Wad 2 gumballs for trade.,5,2,Add straight to binder,binder.svg:1,mathletes,mathletes,draw_mathletes.svg:2|binder.svg:1,,gumball.svg:2
+Telephone,"Put a rain pail in an open slot of an opponent’s base that shares a tile with a base of yours; get that rain pail’s resources, until they upgrade that base and kick you out",+1 rock,Wad 1 gumball for trade.,5,2,,,,,rain_pale.svg:1,rock.svg:1,gumball.svg:1
+Why so sticky?,"Spend cards as gumballs on your reveal, +1 card",+1 card,Wad 1 gumball for trade.,5,2,,,,,card.svg:1|trade.svg:1|gumball.svg:1|card.svg:1,card.svg:1,gumball.svg:1
+You wanna go?,"Spend a rock: scuffle all players at once (no rocks or upgrades). 
+1st → +1 Clout,
+2nd → +2 any resource,
+3rd → you may trash a card from your hand & add it to 4th’s discard pile.
+Only you get rewards. Ties: take the lower reward.",+1 of the resource you have most of,Wad 1 gumball for trade.,5,2,,,,,rock.svg:1|trade.svg:1|scuffle.svg:1|blank.svg:1|if.svg:1|goat.svg:1|trash.svg:1,any_resource_most.svg:1,gumball.svg:1
+Fresh pack,"Count the gumballs of the top 3 cards of your deck: 
+if 1-2 → gain any resource
+if 3-4 → +2 gumballs
+if 5+ → +1 Clout;
+reorder the cards drawn","Roll a die: +1 resource based on your roll
+1 → lunch money
+2 → hallway
+3 → rock
+4 → card",Wad 1 gumball for trade.,6,2,,,,,gum_card.svg:1|if.svg:1|fresh.svg:1,roll.svg:1|if.svg:1|resource.svg:1,gumball.svg:1
+Young capitalist,+1 card; discard x cards for +2x gumballs on reveal,You may add this card to your binder to get its gumballs later,Wad 2 gumballs for trade.,6,2,Add straight to binder,binder.svg:1,mathletes,mathletes,card.svg:1|blank.svg:1|blank.svg:1|discard.svg:1|trade.svg:1|gumball.svg:2,binder.svg:1,gumball.svg:2
+7 up,"Gain a card from the mall ≤ this card’s value, or trash this card to gain a card ≤ +2 this card’s value; if it’s a mathlete, add to your binder",,Wad 1 gumball for trade.,7,2,Add straight to binder,binder.svg:1,mathletes,mathletes,add_card.svg:1|or.svg:1|blank.svg:1|trash.svg:1|trade.svg:1|add_card_+2.svg:1|mathletes.svg:1|if.svg:1|binder.svg:1,,gumball.svg:1
+Big bubbles,+1 action; +1 card; buy Clout for 2 fewer on your reveal,,Wad 3 gumballs for trade.,7,2,,,,,action.svg:1|card.svg:1|clout_-2.svg:1,,gumball.svg:3
+Friendship handcuffs,Add a horse girl card from the mall to an opponent’s deck; +1 action; +1 card,+1 any resource; if other players have a horse girl in their hand: +1 any resource of your choosing for you both,Wad 1 gumball for trade.,7,2,,,horse girls,horse_girls,add_card.svg:1|action.svg:1|card.svg:1,any_resource.svg:1|blank.svg:1|blank.svg:1|horse_girls.svg:1|if.svg:1|any_resource.svg:1,gumball.svg:1
+Wanna race?,+2 actions; +1 card,+1 card,Wad 2 gumballs for trade.,7,2,,,PE enthusiasts,PE_enthusiasts,action.svg:2|card.svg:1,card.svg:1,gumball.svg:2
+You wanna GOAT?,"Spend a rock: scuffle all players at once without rocks or upgrades. 
+1st → +1 Clout,
+2nd → +2 any resource,
+3rd → you may trash a card from your hand & add it to 4th’s discard pile.
+Only you get rewards. Ties: take the higher reward.",+1 any resource,Wad 1 gumball for trade.,7,2,,,,,rock.svg:1|trade.svg:1|scuffle.svg:1|blank.svg:1|if.svg:1|goat.svg:1|trash.svg:1,any_resource.svg:1,gumball.svg:1
+Cargo shorts,Take the action of the next card you play this turn twice; +1 gumball on reveal,Use the reveal power of one of the cards in your hand twice,Wad 1 gumball for trade.,8,2,Add straight to binder,binder.svg:1,mathletes,mathletes,again.svg:1|gumball.svg:1,again.svg:1,gumball.svg:1
+Dollhouse,"Roll a die: take an upgrade pole based on your roll (1→duct tape or spikes, 2→rain pail, 3→mulch, 4→cloutpost)",+2 rocks,Wad 2 gumballs for trade.,8,2,,,horse girls,horse_girls,roll.svg:1|if.svg:1|upgrade.svg:1,rock.svg:2,gumball.svg:2
+Relentless bully,"Initiate a scuffle: you can keep scuffling, as long as you keep winning",+2 rocks,Wad 1 gumball for trade.,8,2,,,PE enthusiasts,PE_enthusiasts,scuffle.svg:1|if.svg:1|again.svg:1,rock.svg:2,gumball.svg:1
+Clout,,,,9,14,+1 clout,clout.svg:1,,,,,
+Explore,+1 hallway or use any 3 resources to add a tile to the board and trash this card,,,~,4,,,,,hallway.svg:1|or.svg:1|blank.svg:1|any_resource.svg:3|trade.svg:1|tile.svg:1|trash.svg:1,,
+Fort up,Gain 1 of any resource,,Wad 1 gumball for trade.,~,8,,,,,any_resource.svg:1,,gumball.svg:1
+Gum,+1 gumball on reveal; add this card back to hand after turn,,Wad 1 gumball for trade.,~,8,,,,,gumball.svg:1|keep_cards.svg:1,,gumball.svg:1
+I’m not sharing,"Roll the dice, only you pick up.
+If < 4 bases, you may roll again, everyone picks up",,Wad 1 gumball for trade.,~,4,,,,,roll.svg:1|roll_4.svg:1,,gumball.svg:1
+Rummage,"Roll the dice: if odd → +1 gumball, if even → +2 gumballs for your reveal",,,~,4,,,,,roll.svg:1|if.svg:1|gumball.svg:1|blank.svg:1|blank.svg:1|or.svg:1|blank.svg:1|gumball.svg:2,,
+Starter deck,Draw 2 cards; discard 1,+1 card,,~,4,,,,,card.svg:2|discard.svg:1,card.svg:1,
+Trenchcoat,"Exchange resources for other resources at a rate of 2:1, up to two times",,Wad 1 gumball for trade.,~,4,,,mathletes,mathletes,any_resource.svg:2|trade.svg:1|any_resource.svg:1,,gumball.svg:1
