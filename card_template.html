@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ name }}</title>
+
+<!-- WeasyPrint respects @page; size here is a standard poker card 2.5"×3.5" -->
+<style>
+@page { size: 2.5in 3.5in; margin: 0; }
+
+.icon {
+  width: 0.22in;   
+  height: 0.22in;  
+}
+
+.icon-row {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.005in;
+  width: 0.8in;
+  justify-content: flex-end; /* Right-align single icons */
+}
+.played-icons {
+  position: absolute;
+  bottom: 42%;                 
+  right: .1in;
+}
+.hand-icons {
+  position: absolute;
+  top: 62%;
+  right: .1in;
+}
+.gumball-icons {
+  position: absolute;
+  top: 92%;
+  right: .1in;
+}
+
+body        { margin: 0; }
+.card       {
+  width: 2.5in;
+  height: 3.5in;
+  background: #b5ecf0;        /* pastel aqua, tweak to taste */
+  border: 3px solid #000;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  box-sizing: border-box;
+  padding: 0.17in 0.2in 0.2in 0.15in; /* room for border + bleed, reduced left padding */
+  position: relative;
+}
+
+/* Cost badge */
+.cost {
+  position: absolute;
+  top: 0.17in;
+  right: 0.17in;
+  width: 0.3in;
+  height: 0.3in;
+  border-radius: 50%;
+  background: #ffd7f0;        /* light pink */
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 0.22in;
+}
+
+/* ─── Clique box ────────────────────────────────────────────── */
+
+.clique-strip-top {
+  position: absolute;
+  top: 0.02in;
+  left: 0.13in;
+  right: 0.8in; /* avoids cost bubble */
+  font-size: 0.11in;
+  color: #000000;
+  font-weight: bold;
+  background: transparent;
+  text-align: left;
+  padding: 0.03in;
+  text-transform: small-caps;
+  letter-spacing: 0.02in;
+
+  display: flex;
+  align-items: center;
+  gap: 0.06in;         /* space between label and icon */
+}
+
+.clique-strip-top img {
+  width: 0.18in;
+  height: 0.18in;
+  display: inline-block;
+}
+
+/* Headline & buy power */
+.name       { 
+  font-size: 0.22in; 
+  font-weight: 800; 
+  line-height: 1.1; 
+  margin: 0;
+  max-width: 1.7in; /* Leave space for cost badge */
+  word-wrap: break-word; /* Allow long words to break */
+  overflow-wrap: break-word; /* Modern browsers */
+}
+.buy-power  { font-size: 0.12in; font-weight: 600; margin: 0.02in 0 0.08in 0; }
+
+/* Played power – bottom aligned with divider line */
+.played-power {
+  position: absolute;
+  bottom: 42%;                 /* aligns with divider line at 60% */
+  left: 0.1in; right: 0.8in;
+  font-size: 0.12in;
+}
+
+/* Divider line */
+.divider {
+  position: absolute;
+  top: 60%;
+  left: 0; right: 0;
+  border-top: 2px solid #000;
+}
+
+/* Hand power section */
+.hand-power {
+  position: absolute;
+  top: 62%;
+  left: 0.1in; right: 0.8in;
+  font-size: 0.12in;
+}
+
+/* Gumball section */
+.gumball-wad {
+  position: absolute;
+  top: 93%;
+  left: 0.1in; right: 0.6in;
+  font-size: 0.12in;
+}
+</style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="cost">{{ cost }}</div>
+
+    <h1 class="name">{{ name }}</h1>
+    <p class="buy-power">{{ buy_power }}</p>
+
+    <div class="clique-strip-top">
+      <span>{{ clique }}</span>
+      {% if clique_icon %}
+        <img src="icons/{{ clique_icon }}.svg" alt="{{ clique }}">
+      {% endif %}
+    </div>
+    
+
+    <div class="played-power">{{ played_power }}</div>
+
+    <div class="divider"></div>
+
+    <div class="hand-power">{{ hand_power }}</div>
+
+    <div class="gumball-wad">{{ gumball_wad }}</div>
+
+    <!-- Icon containers -->
+    {{ gumball_icon_html|safe }}
+    {{ played_icon_html|safe }}
+    {{ hand_icon_html|safe }}
+
+  </div>
+</body>
+</html> 
